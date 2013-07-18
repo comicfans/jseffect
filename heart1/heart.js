@@ -60,18 +60,6 @@ while (i < v ) {
     e[i++] = f; // dots are a 2d array of trails x particles
 }
 
-var counter=0;
-
-function copy(){
-    ++counter;
-
-
-    link.download=counter+".png";
-    link.href=c.toDataURL();
-    link.click();
-
-}
-
 function render(_) { // draw particle
     a.fillStyle = _.f;
     a.beginPath();
